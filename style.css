@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    background-color: #b8b8ff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #272932;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+}
+
+.p {
+    margin-top: 0.5rem;
+}
+
+.container {
+    background-color: #9381ff;
+    margin: 1rem 1rem;
+}
+
+section {
+    display: flex;
+}
+
+.container div {
+    width: 2.75rem;
+    height: 2.75rem;
+    background-color: #9381ff;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 2.7rem;
+}
+
+.reset {
+    margin-top: 0.3rem;
+    background-color: #C082FF;
+    width: 5rem;
+    height: 1.5remx;
+}
+
+.reset:hover {
+    scale: 1.1;
+}
+
+.animation {
+    animation-duration: 0.15s;
+    animation-name: animation;
+}
+
+@keyframes animation {
+    from {
+        scale: 1.2;
+    }
+
+    to {
+        scale: 1;
+    }
+}
