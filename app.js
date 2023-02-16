@@ -44,10 +44,10 @@ function randomNumber() {
 
 function RandomArray() {
     for (let i = 0; i < n; i++) {
-        M[i] = Math.floor(Math.random() * 25)
+        M[i] = (Math.floor(Math.random() * 25) + 1)
     }
     for (let i = 0; i < n; i++) {
-        C[i] = Math.floor(Math.random() * 25)
+        C[i] = (Math.floor(Math.random() * 25) + 1)
     }
 }
 
